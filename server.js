@@ -89,7 +89,7 @@ ${extractedText.substring(0, 4000)}
       'X-Title': 'Mini AI Exam Question Generator'
     },
     body: JSON.stringify({
-      model: 'google/gemma-2-9b-it',
+      model: 'openchat/openchat-3.5-1210',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 2000,
       temperature: 0.7
